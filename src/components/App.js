@@ -49,7 +49,7 @@ const App = () => {
             <h3 className='news-title'>{item.title}</h3>
             <section className='new-content-author'>
               <p className='news-description'>{item.description}</p>
-              <p className='news-source'><strong>Source:</strong>{item.source.name}</p>
+              <p className='news-source'><strong>Source: </strong>{item.source.name}</p>
             </section>
           </section>
         </li>)
